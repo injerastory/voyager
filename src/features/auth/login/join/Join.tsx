@@ -223,7 +223,7 @@ export default function Join({ answer }: JoinProps) {
           </IonItem>
         </IonList>
 
-        <IonList inset>
+        {/* <IonList inset>
           <IonItem>
             <IonToggle
               checked={nsfw}
@@ -232,7 +232,7 @@ export default function Join({ answer }: JoinProps) {
               Show NSFW
             </IonToggle>
           </IonItem>
-        </IonList>
+        </IonList> */}
 
         {site?.site_view.local_site.captcha_enabled && url && (
           <Captcha url={url} ref={captchaRef} />

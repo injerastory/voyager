@@ -28,7 +28,7 @@ const LogoImg = styled.img`
 export default function Watermark() {
   return (
     <Container>
-      <Text>Voyager for Lemmy</Text>
+      <Text>Injerastory</Text>
       <LogoImg src="/logo.png" className="allowed-image" />
     </Container>
   );

@@ -17,6 +17,10 @@ import AppHeader from "../../../../features/shared/AppHeader";
 
 const links = [
   {
+    label: "Voyager",
+    href: "https://github.com/aeharding/voyager",
+  },
+  {
     label: "Apollo",
     href: "https://apolloapp.io",
   },
@@ -91,7 +95,7 @@ export default function AboutThanksPage() {
         <p className="ion-padding-start">
           ...and all of Voyager&apos;s contributors! 💙
         </p>
-        <InAppExternalLink
+        {/* <InAppExternalLink
           href="https://github.com/aeharding/voyager/graphs/contributors"
           target="_blank"
           rel="noopener noreferrer"
@@ -100,7 +104,7 @@ export default function AboutThanksPage() {
             src="https://contrib.rocks/image?repo=aeharding/voyager"
             className="ion-padding-start ion-padding-end ion-padding-bottom"
           />
-        </InAppExternalLink>
+        </InAppExternalLink> */}
       </AppContent>
     </IonPage>
   );

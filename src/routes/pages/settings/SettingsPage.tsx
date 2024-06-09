@@ -114,7 +114,7 @@ export default function SettingsPage() {
 
         {databaseError && <DatabaseErrorItem />}
 
-        <IonList inset>
+        {/* <IonList inset>
           <IonItem
             onClick={() => presentTip({ cssClass: "transparent-scroll" })}
             button
@@ -125,9 +125,9 @@ export default function SettingsPage() {
             </IconBg>
             <SettingLabel>Support Voyager</SettingLabel>
           </IonItem>
-        </IonList>
+        </IonList> */}
 
-        {!isNative() && (
+        {/* {!isNative() && (
           <IonList inset>
             <IonItem routerLink="/settings/install">
               <IconBg color="#0e7afe">
@@ -147,7 +147,7 @@ export default function SettingsPage() {
               )}
             </IonItem>
           </IonList>
-        )}
+        )} */}
         <IonList inset>
           <IonItem routerLink="/settings/general">
             <IconBg color="color(display-p3 0.5 0.5 0.5)" size="1.3">
@@ -198,14 +198,14 @@ export default function SettingsPage() {
           </IonItem>
         </IonList>
 
-        <IonList inset>
+        {/* <IonList inset>
           <IonItem routerLink="/settings/reddit-migrate">
             <IconBg color="#ff5700">
               <IonIcon icon={bagCheck} />
             </IconBg>
             <SettingLabel>Migrate Subreddits</SettingLabel>
           </IonItem>
-        </IonList>
+        </IonList> */}
 
         <IonList inset>
           <IonItem routerLink="/settings/about">

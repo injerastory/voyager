@@ -1,6 +1,6 @@
 {
-  "short_name": "Voyager",
-  "name": "Voyager",
+  "short_name": "Injerastory",
+  "name": "Injerastory",
   "icons": [
     {
       "src": "/favicons/192.png",
@@ -19,7 +19,7 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#000000",
-  "description": "Voyager is a beautiful mobile web client for lemmy. Enjoy a seamless experience browsing the fediverse.",
+  "description": "Injerastory is a community where everyone come together to share their stories, experiences, and cultural.",
   "categories": ["social", "news"],
   "screenshots": [
     {

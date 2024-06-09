@@ -99,7 +99,7 @@ export default function AboutPage() {
         <AppDetails />
 
         <IonList inset color="primary">
-          <IonItemInAppExternalLink
+          {/* <IonItemInAppExternalLink
             href="https://github.com/aeharding/voyager/releases"
             target="_blank"
             rel="noopener noreferrer"
@@ -128,7 +128,7 @@ export default function AboutPage() {
               <IonIcon icon={logoMastodon} />
             </IconBg>
             <SettingLabel>@alex@harding.dev</SettingLabel>
-          </IonItemInAppExternalLink>
+          </IonItemInAppExternalLink> */}
           <IonItemInAppExternalLink
             detail
             href={VOYAGER_PRIVACY}
@@ -151,14 +151,14 @@ export default function AboutPage() {
             </IconBg>
             <SettingLabel>Terms of Use</SettingLabel>
           </IonItemInAppExternalLink>
-          {rateVoyager}
+          {/* {rateVoyager} */}
           <IonItemInAppExternalLink detail routerLink="/settings/about/thanks">
             <IconBg color="color(display-p3 0.1 0.6 0.1)">
               <IonIcon icon={thumbsUp} />
             </IconBg>
             <SettingLabel>Thanks To</SettingLabel>
           </IonItemInAppExternalLink>
-          <IonItemInAppExternalLink
+          {/* <IonItemInAppExternalLink
             detail
             href="https://github.com/aeharding/voyager/issues"
             target="_blank"
@@ -174,7 +174,7 @@ export default function AboutPage() {
               <IonIcon icon={happy} />
             </IconBg>
             <SettingLabel>Get a Compliment</SettingLabel>
-          </IonItemInAppExternalLink>
+          </IonItemInAppExternalLink> */}
         </IonList>
       </AppContent>
     </IonPage>

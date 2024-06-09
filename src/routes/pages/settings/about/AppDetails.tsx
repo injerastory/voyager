@@ -26,8 +26,14 @@ export default function AppDetails() {
     <AppContainer>
       <img src="/logo.png" alt="" />
       <div>
-        Voyager {APP_VERSION}
-        <aside>by Alexander Harding</aside>
+        Injerastory
+        <aside>a fork of <a
+          href="https://github.com/injerastory/voyager"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+              voyager
+            </a></aside>
       </div>
     </AppContainer>
   );

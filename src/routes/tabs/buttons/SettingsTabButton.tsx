@@ -18,8 +18,8 @@ function SettingsTabButton(props: TabButtonProps) {
   const settingsBadge = (() => {
     if (databaseError) return <IonBadge color="danger">!</IonBadge>;
 
-    if (settingsNotificationCount)
-      return <IonBadge color="danger">{settingsNotificationCount}</IonBadge>;
+    // if (settingsNotificationCount)
+    //   return <IonBadge color="danger">{settingsNotificationCount}</IonBadge>;
   })();
 
   return (

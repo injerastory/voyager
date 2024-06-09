@@ -5,6 +5,7 @@ import { IonButton, IonNavLink, IonSpinner } from "@ionic/react";
 import PickJoinServer from "../pickJoinServer/PickJoinServer";
 import LearnMore from "../LearnMore";
 import PickLoginServer from "../login/PickLoginServer";
+import Login from "../login/Login";
 import useStartJoinFlow from "../pickJoinServer/useStartJoinFlow";
 
 const TopSpacer = styled.div`
@@ -68,11 +69,11 @@ export default function Buttons() {
         >
           {loadingJoin ? <IonSpinner /> : `Join ${connectedInstance}`}
         </IonButton>
-        <IonNavLink component={() => <PickJoinServer />}>
+        {/* <IonNavLink component={() => <PickJoinServer />}>
           <IonButton fill="outline" color="dark" expand="block">
             Pick another server
           </IonButton>
-        </IonNavLink>
+        </IonNavLink> */}
         <Or>
           <hr />
           OR
@@ -80,12 +81,12 @@ export default function Buttons() {
         </Or>
 
         <ButtonLine>
-          <IonNavLink component={() => <LearnMore />}>
+          {/* <IonNavLink component={() => <LearnMore />}>
             <IonButton fill="clear" color="dark" expand="block">
               Learn More
             </IonButton>
-          </IonNavLink>
-          <IonNavLink component={() => <PickLoginServer />}>
+          </IonNavLink> */}
+          <IonNavLink component={() => <Login url='injerastory.com' siteIcon='https://injerastory.com/pictrs/image/d1d8c7d6-4801-4700-a9cd-279bbb0d293a.png?thumbnail=48&format=webp' />}>
             <IonButton fill="clear" color="dark" expand="block">
               Log In
             </IonButton>

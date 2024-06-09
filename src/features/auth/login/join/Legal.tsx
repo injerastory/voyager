@@ -57,9 +57,8 @@ export default function Legal() {
         </AppHeader>
 
         <p className="ion-padding">
-          The Voyager app does not collect any data, but the server you sign up
-          with may have a different policy. Take a moment to review and agree to
-          the Voyager App policies as well as your server&apos;s policies.
+          Take a moment to review and agree to
+          the App policies as well as your server&apos;s policies.
         </p>
 
         <IonList inset>
@@ -69,7 +68,7 @@ export default function Legal() {
             rel="noopener noreferrer"
             onClick={interceptHrefWithInAppBrowserIfNeeded(VOYAGER_PRIVACY)}
           >
-            Voyager App — Privacy Policy
+            Privacy Policy
           </IonItem>
           <IonItem
             href={VOYAGER_TERMS}
@@ -77,7 +76,7 @@ export default function Legal() {
             rel="noopener noreferrer"
             onClick={interceptHrefWithInAppBrowserIfNeeded(VOYAGER_TERMS)}
           >
-            Voyager App — Terms of Use
+            Terms of Use
           </IonItem>
         </IonList>
 

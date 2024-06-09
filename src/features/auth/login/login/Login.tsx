@@ -219,7 +219,7 @@ export default function Login({ url, siteIcon }: LoginProps) {
         </form>
 
         <HelperText>
-          By using Voyager, you agree to the{" "}
+          By using the App, you agree to the{" "}
           <InAppExternalLink
             href={VOYAGER_TERMS}
             target="_blank"
